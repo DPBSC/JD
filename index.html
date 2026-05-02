@@ -23,14 +23,23 @@
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-inner">
-        <p class="eyebrow">NYC · Licensed Electrician</p>
-        <h1>Precision electrical work,<br />designed for the city.</h1>
-        <p class="lede">Residential and commercial electrical services across New York City. Clean installs, modern standards, on time.</p>
-        <div class="cta-row">
-          <a href="contact.html" class="btn btn-primary">Get in touch</a>
-          <a href="services.html" class="btn btn-ghost">View services</a>
+    <section class="hero hero-split">
+      <div class="hero-split-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">NYC · Licensed Electrician</p>
+          <h1>Precision electrical work,<br />designed for the city.</h1>
+          <p class="lede">Residential and commercial electrical services across New York City. Clean installs, modern standards, on time.</p>
+          <div class="cta-row">
+            <a href="contact.html" class="btn btn-primary">Get in touch</a>
+            <a href="services.html" class="btn btn-ghost">View services</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img
+            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1200&q=80"
+            alt="Electrical work in progress"
+            loading="eager"
+          />
         </div>
       </div>
     </section>
@@ -48,6 +57,58 @@
         <div class="band-item">
           <h3>On-Time Service</h3>
           <p>Clear scheduling, clear pricing, no surprises.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews" data-source="google-reviews">
+      <div class="reviews-inner">
+        <div class="reviews-header">
+          <p class="eyebrow">Reviews</p>
+          <h2>What clients are saying.</h2>
+          <p class="reviews-meta">
+            <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+            <span class="rating-text">5.0 · Google Reviews</span>
+          </p>
+        </div>
+
+        <div class="reviews-grid" data-google-reviews-target>
+          <article class="review-card">
+            <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
+            <blockquote class="review-quote placeholder">
+              [Client testimonial pulled from Google Reviews will go here. Lorem ipsum placeholder copy describes a five-star experience with the electrician.]
+            </blockquote>
+            <footer class="review-meta">
+              <span class="review-author">— Client Name</span>
+              <span class="review-source">Google Review</span>
+            </footer>
+          </article>
+
+          <article class="review-card">
+            <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
+            <blockquote class="review-quote placeholder">
+              [Second testimonial placeholder. Mentions punctuality, clean work, and fair pricing. Will be replaced by live Google Reviews data.]
+            </blockquote>
+            <footer class="review-meta">
+              <span class="review-author">— Client Name</span>
+              <span class="review-source">Google Review</span>
+            </footer>
+          </article>
+
+          <article class="review-card">
+            <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
+            <blockquote class="review-quote placeholder">
+              [Third testimonial placeholder. Speaks to professionalism and quality of finish on a residential project in NYC.]
+            </blockquote>
+            <footer class="review-meta">
+              <span class="review-author">— Client Name</span>
+              <span class="review-source">Google Review</span>
+            </footer>
+          </article>
+        </div>
+
+        <div class="reviews-cta">
+          <a href="#" class="btn btn-ghost" data-google-reviews-link>Read all reviews on Google</a>
         </div>
       </div>
     </section>
