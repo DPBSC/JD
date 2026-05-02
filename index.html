@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JD — NYC Electrician</title>
+  <meta name="description" content="JD — Modern electrical work for New York City." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">JD</a>
+    <nav class="nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">NYC · Licensed Electrician</p>
+        <h1>Precision electrical work,<br />designed for the city.</h1>
+        <p class="lede">Residential and commercial electrical services across New York City. Clean installs, modern standards, on time.</p>
+        <div class="cta-row">
+          <a href="contact.html" class="btn btn-primary">Get in touch</a>
+          <a href="services.html" class="btn btn-ghost">View services</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="band-inner">
+        <div class="band-item">
+          <h3>Licensed &amp; Insured</h3>
+          <p>Fully credentialed for work across the five boroughs.</p>
+        </div>
+        <div class="band-item">
+          <h3>Modern Standards</h3>
+          <p>Up-to-code installs built to last and look clean.</p>
+        </div>
+        <div class="band-item">
+          <h3>On-Time Service</h3>
+          <p>Clear scheduling, clear pricing, no surprises.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <p class="logo">JD</p>
+        <p class="muted">NYC Electrician</p>
+      </div>
+      <div class="footer-contact">
+        <a href="tel:+10000000000">(000) 000-0000</a>
+        <a href="mailto:hello@example.com">hello@example.com</a>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> JD. All rights reserved.</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
