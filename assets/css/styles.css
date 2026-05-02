@@ -262,12 +262,22 @@ img { max-width: 100%; display: block; }
   font-style: italic;
 }
 
-/* About page */
+/* About page — split layout */
+.about-grid {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
 .about-media {
-  margin: 3rem 0 3.5rem;
-  aspect-ratio: 16 / 9;
+  margin: 0;
+  aspect-ratio: 4 / 5;
   overflow: hidden;
   background: #111;
+  position: sticky;
+  top: 6rem;
 }
 
 .about-media img {
@@ -278,12 +288,12 @@ img { max-width: 100%; display: block; }
 }
 
 .about-prose {
-  max-width: 65ch;
-  margin: 0 auto;
+  max-width: none;
+  margin: 0;
 }
 
 .about-prose p {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   line-height: 1.7;
   max-width: none;
   margin: 0 0 1.5rem;
@@ -574,8 +584,9 @@ a.contact-value:hover { color: var(--accent); }
   .reviews-grid { grid-template-columns: 1fr; gap: 1rem; }
   .reviews-header { margin-bottom: 2.5rem; }
   .band-inner { grid-template-columns: 1fr; gap: 2rem; }
-  .about-media { margin: 2.5rem 0; aspect-ratio: 4 / 3; }
-  .about-prose p { font-size: 1.02rem; }
+  .about-grid { grid-template-columns: 1fr; gap: 2.5rem; margin-top: 2rem; }
+  .about-media { aspect-ratio: 4 / 3; position: static; }
+  .about-prose p { font-size: 1rem; }
   .service-list { grid-template-columns: 1fr; }
   .service-list li:nth-child(odd) { padding-right: 0; border-right: none; }
   .service-list li:nth-child(even) { padding-left: 0; }
