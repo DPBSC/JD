@@ -3,16 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JD — NYC Electrician</title>
-  <meta name="description" content="JD — Modern electrical work for New York City." />
+  <title>BuildScape Electric — NYC Electrician</title>
+  <meta name="description" content="BuildScape Electric — Modern electrical work for New York City." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
   <header class="site-header">
-    <a class="logo" href="index.html">JD</a>
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">B</span>
+      <span class="brand-text">BuildScape Electric</span>
+    </a>
     <nav class="nav">
       <a href="index.html" class="active">Home</a>
       <a href="about.html">About</a>
@@ -27,7 +30,7 @@
       <div class="hero-split-inner">
         <div class="hero-copy">
           <p class="eyebrow">NYC · Licensed Electrician</p>
-          <h1>Precision electrical work,<br />designed for the city.</h1>
+          <h1>Precision electrical work, designed for the city.</h1>
           <p class="lede">Residential and commercial electrical services across New York City. Clean installs, modern standards, on time.</p>
           <div class="cta-row">
             <a href="contact.html" class="btn btn-primary">Get in touch</a>
@@ -117,15 +120,19 @@
   <footer class="site-footer">
     <div class="footer-inner">
       <div>
-        <p class="logo">JD</p>
-        <p class="muted">NYC Electrician</p>
+        <a class="brand brand-light" href="index.html">
+          <span class="brand-mark" aria-hidden="true">B</span>
+          <span class="brand-text">BuildScape Electric</span>
+        </a>
+        <p class="muted">NYC Electrician · Astoria, NY</p>
       </div>
       <div class="footer-contact">
-        <a href="tel:+10000000000">(000) 000-0000</a>
-        <a href="mailto:hello@example.com">hello@example.com</a>
+        <a href="tel:+16462871093">646.287.1093</a>
+        <a href="mailto:john@buildscapeinc.com">john@buildscapeinc.com</a>
+        <a href="https://maps.google.com/?q=3544+10th+St+Astoria+NY+11106" target="_blank" rel="noopener">3544 10th St, Astoria NY 11106</a>
       </div>
     </div>
-    <p class="copyright">© <span id="year"></span> JD. All rights reserved.</p>
+    <p class="copyright">© <span id="year"></span> BuildScape Electric. All rights reserved.</p>
   </footer>
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
