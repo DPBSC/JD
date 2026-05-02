@@ -262,6 +262,37 @@ img { max-width: 100%; display: block; }
   font-style: italic;
 }
 
+/* About page */
+.about-media {
+  margin: 3rem 0 3.5rem;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #111;
+}
+
+.about-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%) contrast(1.05);
+}
+
+.about-prose {
+  max-width: 65ch;
+  margin: 0 auto;
+}
+
+.about-prose p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: none;
+  margin: 0 0 1.5rem;
+}
+
+.about-prose p:last-child {
+  margin-bottom: 0;
+}
+
 /* Services list */
 .service-list {
   list-style: none;
@@ -543,6 +574,8 @@ a.contact-value:hover { color: var(--accent); }
   .reviews-grid { grid-template-columns: 1fr; gap: 1rem; }
   .reviews-header { margin-bottom: 2.5rem; }
   .band-inner { grid-template-columns: 1fr; gap: 2rem; }
+  .about-media { margin: 2.5rem 0; aspect-ratio: 4 / 3; }
+  .about-prose p { font-size: 1.02rem; }
   .service-list { grid-template-columns: 1fr; }
   .service-list li:nth-child(odd) { padding-right: 0; border-right: none; }
   .service-list li:nth-child(even) { padding-left: 0; }
