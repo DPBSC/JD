@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — JD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">JD</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page">
+      <div class="page-inner">
+        <p class="eyebrow">Services</p>
+        <h1>What we do.</h1>
+        <p class="lede">A focused set of services for residential and commercial clients.</p>
+
+        <ul class="service-list">
+          <li>
+            <h3>Residential</h3>
+            <p class="placeholder">[Wiring, lighting design, panel upgrades, outlets, fixtures.]</p>
+          </li>
+          <li>
+            <h3>Commercial</h3>
+            <p class="placeholder">[Buildouts, retail, office, restaurant electrical.]</p>
+          </li>
+          <li>
+            <h3>Lighting</h3>
+            <p class="placeholder">[Recessed, track, accent, and architectural lighting.]</p>
+          </li>
+          <li>
+            <h3>Panel &amp; Service Upgrades</h3>
+            <p class="placeholder">[Service increases, sub-panels, code corrections.]</p>
+          </li>
+          <li>
+            <h3>Smart Home</h3>
+            <p class="placeholder">[Lutron, smart switches, automation integrations.]</p>
+          </li>
+          <li>
+            <h3>Repairs &amp; Diagnostics</h3>
+            <p class="placeholder">[Troubleshooting, code violations, emergency repairs.]</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <p class="logo">JD</p>
+        <p class="muted">NYC Electrician</p>
+      </div>
+      <div class="footer-contact">
+        <a href="tel:+10000000000">(000) 000-0000</a>
+        <a href="mailto:hello@example.com">hello@example.com</a>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> JD. All rights reserved.</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery — JD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">JD</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html" class="active">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page">
+      <div class="page-inner">
+        <p class="eyebrow">Gallery</p>
+        <h1>Selected work.</h1>
+        <p class="lede">A look at recent projects across New York City.</p>
+
+        <div class="gallery-grid">
+          <div class="gallery-item placeholder-tile"><span>Project 01</span></div>
+          <div class="gallery-item placeholder-tile"><span>Project 02</span></div>
+          <div class="gallery-item placeholder-tile"><span>Project 03</span></div>
+          <div class="gallery-item placeholder-tile"><span>Project 04</span></div>
+          <div class="gallery-item placeholder-tile"><span>Project 05</span></div>
+          <div class="gallery-item placeholder-tile"><span>Project 06</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <p class="logo">JD</p>
+        <p class="muted">NYC Electrician</p>
+      </div>
+      <div class="footer-contact">
+        <a href="tel:+10000000000">(000) 000-0000</a>
+        <a href="mailto:hello@example.com">hello@example.com</a>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> JD. All rights reserved.</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
